@@ -1,0 +1,33 @@
+{
+  "name": "demo2-arqui",
+  "version": "1.0.0",
+  "description": "Demo service bus",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GersonCarrascoL/core-nodejs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GersonCarrascoL/core-nodejs/issues"
+  },
+  "homepage": "https://github.com/GersonCarrascoL/core-nodejs#readme",
+  "dependencies": {
+    "bcrypt": "^1.0.3",
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "express-method-override": "0.0.3",
+    "jsonwebtoken": "^8.1.1",
+    "mongoose": "^5.0.15",
+    "morgan": "^1.9.0",
+    "mysql": "^2.15.0",
+    "nodemon": "^1.14.12",
+    "socket.io": "^2.0.4"
+  }
+}
